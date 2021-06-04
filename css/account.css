@@ -1,0 +1,115 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+    
+   
+}
+.pagecontainer{
+    
+    display:flex;
+    flex-direction: row;   
+    width: 100%;
+    height:90%;
+    
+    justify-content: center;
+    overflow: hidden;
+}
+.section{
+    
+    width:60%;
+    height:100%;
+
+    border-radius: 10px;
+    background-color: #0d0d3bd8;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    text-align:center;
+    
+    transition:0.6s;
+    
+}
+
+#section-1 td{
+    padding:10px;
+    color:white;
+}
+
+.loalty-points .loyltypointname{
+    font-size:30px;
+    padding-right:20px;
+}
+.loalty-points .Points{
+    color:gold;
+    font-size:30px;
+}
+
+.user-buttons button,#editAccountDetails button{
+    height:70px;
+    width:300px;
+    border-radius: 10px;
+    background: none;
+    border:2px solid white;
+    color:white;
+    outline:none;
+}
+.user-buttons button:hover,#editAccountDetails button:hover{
+    border:2px solid black;
+    color:black;
+    background:white;
+    
+}
+#editAccountDetails{
+    top:-100%;
+    flex-direction: row;
+    
+}
+#editAccountDetails button{
+    margin:20px;
+}
+
+.inner-body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    height:100%;
+    font-size:18px;
+
+}
+
+input[type=submit]{
+    background-color: rgba(0,0,0,0);
+    margin:auto;
+    width:160px;
+    height:40px;
+    border:2px solid white;
+    border-radius:5px;
+    color:white;
+    font-size: 100%;
+    font-weight:bold;
+    margin-top:30px;
+}
+.id input[type=text],.id input[type=email]{
+    border:none;
+    width:500px;
+    background-color: rgba(0,0,0,0);
+    outline:none;
+    border-bottom:2px solid white ;
+    color:white;
+    text-align: center;
+    font-size:20px;
+    margin:20px;
+}
+.content-name{
+    color:white;
+    margin-bottom:10px;
+    font-size:20px;
+    
+}
+#edit-user-name,#edit-user-email,#edit-user-contactNumber,#edit-user-address,#edit-user-password{
+    top:-100%;
+}

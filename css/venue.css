@@ -1,0 +1,211 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /*background-image:url("../images/reserveNow/weding.jpg");*/
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+
+}
+.wedding{
+    background-image: url(../images/packages/wedding2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    top:60px;
+    height:92%;
+    width:100%;
+    Background-Color:rgba(151, 29, 29,1);
+    align-items: center;
+    z-index: 2;
+    margin-top:-15%;
+    transition:1s;
+}
+.description{
+    width:80%;
+    color:white;
+    font-size: 30px;
+    margin:50px;
+    text-align: center;  
+}
+.description p{
+    padding-top:50px;
+}
+#wedding-packages-list{
+    position: relative;
+    height:60px;
+    width:150px;
+    top:-80px;
+    border:3px solid white;
+    border-radius:5px;
+    background-color:rgba(0,0,0,0);
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    outline:none;
+
+}
+#wedding-packages-list:hover{
+    position: relative;
+    height:60px;
+    width:150px;
+    top:-80px;
+    border:3px solid black;
+    border-radius:5px;
+    background-color:rgba(255, 255, 255, 1);
+    color:black;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+.packages-slidershow{
+    
+    margin-top:20px;
+    width:100%;
+    height:90%;
+    overflow: hidden;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+} 
+
+.middle{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+.package-nevigation{
+    position: absolute;
+    bottom:15px;
+    left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    height: 10%;
+    width:100%;
+    justify-content: center;
+    
+
+}
+.package-selecter-bar{
+    width:10%;
+    height:75%;
+    border:2px solid white;
+    margin:6px;
+    cursor: pointer;
+    border-radius: 10px 10px 0px 0px;
+    color:white;
+    background-color:rgba(84, 76, 76,0.7);
+    font-weight: bold;
+    text-align:center;
+    padding-top:10px;
+    font-size:1.2vw;
+    transition: 0.4s;
+}
+.package-selecter-bar:hover{
+    background:white;
+    color:black;
+}
+
+input[name="package-selecter-r"]{
+    position: absolute;
+    visibility: hidden;
+}
+.packages-slides{
+    width:500%;
+    height:100%;
+    display:flex;
+    
+
+}
+.slide{
+    width:20%;
+    transition: 0.6s;
+}
+.slide img{
+    width:100%;
+    height:100%;
+}
+
+#v1{
+	background-image : url("../images/packages/venue9.jpg");
+	background-repeat: no-repeat;
+}
+#v2{
+	background-image : url("../images/packages/venue9.jpg");
+	background-repeat: no-repeat;
+}
+#v3{
+	background-image : url("../images/packages/venue9.jpg");
+	background-repeat: no-repeat;
+}
+#v4{
+	background-image : url("../images/packages/venue9.jpg");
+	background-repeat: no-repeat;
+}
+
+#package-selecter-r-1:checked ~ #v1{
+    margin-left: 0%;
+
+}
+#package-selecter-r-2:checked ~ #v1{
+    margin-left: -20%;
+	background-image : url("../images/packages/venue10.jpg");
+}
+#package-selecter-r-3:checked ~ #v1{
+    margin-left: -40%;
+	background-image : url("../images/packages/venue17.jpg");
+}
+#package-selecter-r-4:checked ~ #v1{
+    margin-left: -60%;
+	background-image : url("../images/packages/venue11.jpg");
+}
+
+.venue{
+    background-image: url(../images/packages/venue15.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: absolute;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    top:60px;
+    height:92%;
+    width:100%;
+    Background-Color:rgba(151, 29, 29,1);
+    align-items: center;
+    z-index: 2;
+    margin-top:-15%;
+    transition:1s;
+}
+
+#venue{
+	text-align : left;
+	margin-top : 180px;
+	margin-left : 410px;
+	color : white;
+	width : 40%;
+	padding-left:21px;
+	font-size : 27px;
+	font-family : Candara;
+	background-color : rgba(84, 76, 76,0.7);
+}
+
+#venue1{
+	text-align : left;
+	margin-top : 120px;
+	margin-left : 410px;
+	color : white;
+	width : 40%;
+	padding-left:21px;
+	font-size : 27px;
+	font-family : Candara;
+	background-color : rgba(84, 76, 76,0.7);
+}

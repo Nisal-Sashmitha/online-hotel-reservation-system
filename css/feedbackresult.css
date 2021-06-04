@@ -1,0 +1,60 @@
+.pageContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    width:100%;
+}
+
+.commentDisplayContainer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    height:100%;
+    width:100%;
+}
+.commentDisplay{
+    margin-top:50px;
+    background-color: #0d0d3bda;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:400px;
+    width:600px;
+    padding: 50px;
+    
+    
+}
+.commentDisplay table{
+    color:white;
+}
+.commentDisplay table td{
+    padding:20px;
+}
+.feedbackCtimeWidth{
+    width:200px;
+}
+.feedbackCcomment{
+    font-size: 20;
+    border:2px solid white;
+    border-radius: 10px;
+}
+.feedbackCname{
+    font-size: 20;
+}
+.deleteEdit-btn{
+    padding:5px;
+    border-radius: 5px;
+    margin:20px;
+    background:#0d0d3b;
+    color:white;
+   
+}
+.deleteEdit-btn:hover{
+    padding:5px;
+    border-radius: 5px;
+    margin:20px;
+    border:2px solid white;
+    
+}

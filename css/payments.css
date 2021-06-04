@@ -1,0 +1,156 @@
+
+
+.section{
+    position:absolute;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    text-align:center;
+    
+}
+
+.inner-body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    height:100%;
+    
+
+}
+.content-name{
+    color:white;
+    margin-bottom:10px;
+    font-size:20px;
+}
+.id input[type=text]{
+    border:none;
+    width:500px;
+    background-color: rgba(0,0,0,0);
+    outline:none;
+    border-bottom:2px solid white ;
+    color:white;
+    text-align: center;
+    font-size:20px;
+}
+.id{
+    margin:20px;
+}
+#section-1 input[type=submit]{
+    background-color: rgba(0,0,0,0);
+    margin:auto;
+    margin-top:30px;
+    width:160px;
+    height:40px;
+    border:2px solid white;
+    border-radius:5px;
+    color:white;
+    font-size: 100%;
+    font-weight:bold;
+    position: absolute;
+    top:434px;
+    left:600px;
+    transition: 0.4s;
+}
+.procPaybtn{
+    background-color: rgba(0,0,0,0);
+    margin:auto;
+    margin-top:30px;
+    width:160px;
+    height:40px;
+    border:2px solid white;
+    border-radius:5px;
+    color:white;
+    font-size: 100%;
+    font-weight:bold;
+    transition: 0.4s;
+}
+
+
+#section-1 input[type=submit]:hover,.skip-btn:hover,.proceedToPay:hover,#section-3 input[type=submit]:hover,.procPaybtn:hover{
+    background-color: rgba(255,255,255,1);
+    border:2px solid rgba(151, 29, 29,1);
+    color:black; 
+}
+.skip-btn{
+    background-color: rgba(0,0,0,0);
+    margin:auto;
+    margin-top:30px;
+    width:160px;
+    height:40px;
+    border:2px solid white;
+    border-radius:5px;
+    color:white;
+    font-size: 100%;
+    font-weight:bold;
+    position: absolute;
+    top:434px;
+    left:770px;
+    transition: 0.4s;
+}
+
+#section-2{
+    top:-100%;
+    transition:0.6s;
+    
+}
+#section-2 td{
+    color:white;
+    padding:5px;
+    font-size:18px;
+   
+}
+
+#section-2 th{
+    color:white;
+    padding:5px;
+    font-size:22px;
+}
+
+.proceedToPay{
+    background-color: rgba(0,0,0,0);
+    margin:auto;
+    margin-top:30px;
+    width:300px;
+    height:40px;
+    border:2px solid white;
+    border-radius:5px;
+    color:white;
+    font-size: 100%;
+    font-weight:bold;
+}
+.reservation-details-table{
+    margin-top:30px;
+
+}
+
+.reservation-payment-details-table{
+    border-top:2px solid white;
+    margin-top:30px;
+}
+
+.pay-btn{
+    background-color: rgba(0,0,0,0);
+    margin:auto;
+    margin-top:30px;
+    width:160px;
+    height:40px;
+    border:2px solid white;
+    border-radius:5px;
+    color:white;
+    font-size: 100%;
+    font-weight:bold;
+    position: absolute;
+    top:550px;
+    left:680px;
+    transition: 0.4s;
+}
+
+#section-3 input[type=radio]{
+    margin:0px 20px 0px 0px ;
+}
+

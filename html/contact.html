@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+	<head>
+		<meta charset = "utf-8">
+		<title> HOTEL ROYAL </title>
+		<link rel = "stylesheet" href = "../css/header.css">
+		<link rel = "stylesheet" href = "../css/footer.css">
+		<link rel = "stylesheet" href = "../css/contact.css">
+		<script src = " ../js/hrs.js"> </script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body id = "contact-page">
+		<table class='header' id='header' width=100%>
+			<tr width=100%>
+				<td rowspan="3">
+					<img class='heder-logo' src='../images/logo.png'>
+				</td>    
+				<td class='header-menu' width=1000px>
+					<div class=header-pages >
+						
+							<a href='../php/reserveNow.php' id=reserveNow>RESERVE NOW</span></a>
+							<a href='../html/hm.html' >HOME</a>
+							<a href='../html/contact.html' >CONTACT US</a>
+							<a href='../php/yourReservation.php' >YOUR RESERVATION</a>
+						
+						</div>
+					
+				</td>
+				<td rowspan="2"  >
+					
+						<a href='../html/getYourLoyaltyCard.html' class='loyaltyCard' style="display: block;border:none;" >Get your<br> LOYALTY CARD</a>
+					  
+				</td>
+				<td rowspan="2"  >
+					<a href=../php/SignIn.php><button>SignIn</button></a>
+				</td> 
+			</tr>
+			<tr>    
+				<td class='header-eventMenu'>
+					
+						<div class=header-pages >
+							<a href='../html/wedding.html' >WEDDING</a>
+							<a href='../html/meeting&conference.html' >MEETING & CONFERENCE</a>
+							<a href='../html/party.html' >PARTY</a>
+							<a href='../html/venue.html' >VENUE</a>
+							<a href='../html/catering.html' >CATERING</a>
+							
+						</div> 
+							   
+						   
+				</td>
+				
+			</tr>
+			<tr height=50px;>
+	</tr>    
+				
+		</table>
+		<h3 class = "contact"> CONTACT US </h3>
+			<table class = "contact-table">
+				<tr class = "contact-title">
+					<th id = "contact-inquiry-title"> <img class = "contact-icon" id = "contact-wedding" src = "../images/wedding.jpg" width = "40px" height = "40px"> For Wedding Inquiries 
+					</th> 
+					
+					<th id = "contact-inquiry-title"> <img class = "contact-icon" id = "contact-catering" src = "../images/catering.jpg" width = "35px" height = "35px"> For Catering Inquiries 
+				    </th> 
+					
+					<th id = "contact-inquiry-title-special"> <img class = "contact-icon" id = "contact-special-event" src = "../images/s-event.jpg" width = "35px" height = "35px"> For Special Events Inquiries 
+					</th> 
+					
+					<th id = "contact-inquiry-title-general"> <img class = "contact-icon" id = "contact-general" src = "../images/general.jpg" width = "25px" height = "30px"> For General Inquiries 
+					</th>
+				</tr>
+				
+				<tr class = "contact-title">
+					<td class = "contact-detail"> 
+						<ul>
+						<li> Harry Watson <br> 0768594243 <br> harrywatson@hotelroyal.lk </li> <br>
+						<li> Jessica Joseph <br> 0758463941 <br> jessicajoseph@hotelroyal.lk </li> <br>
+						<li> Saman Perera <br> 0768599354 <br> samanperera@hotelroyal.lk </li> <br>
+						</ul>
+					</td>
+					
+					<td class = "contact-detail"> 
+						<ul>
+						<li> John Michal <br> 0768466895 <br> johnmichal@hotelroyal.lk </li> <br>
+						<li> Thasun Silva <br> 0774586921 <br> thasunsilva@hotelroyal.lk </li> <br>
+						<li> Shonali Juli <br> 0763569785 <br> shonalijuli@hotelroyal.lk </li> <br>
+						</ul>
+					</td>
+					
+					<td class = "contact-detail-special"> 
+						<ul>
+						<li> Kevin Jayawardene <br> 0774586923 <br> johnmichal@hotelroyal.lk </li> <br>
+						<li> Thilini Hansala <br> 0765987423 <br> thilinihansala@hotelroyal.lk </li> <br>
+						<li> Ann Sheron <br> 0715487635 <br> annsheron@hotelroyal.lk </li> <br>
+						</ul>
+					</td>
+					
+					<td class = "contact-detail-general"> 
+						<ul>
+						<li> Shehan Silva <br> 0774535489 <br> shehansilva@hotelroyal.lk </li> <br>
+						<li> Nethmi Perera <br> 0768574243 <br> nethmiperera@hotelroyal.lk </li> <br>
+						<li> Shevoni De Silva <br> 0723564789 <br> shevonidesilva@hotelroyal.lk </li> <br>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			
+			<table>
+				<tr id = "special-inquiry-row">
+					<td id = "special-inquiry-data" >
+						<form id = "special-inquiry" onclick = "enableButton()">
+							<fieldset class = "special-inquiry-field">
+								<legend id = "special-inquiry-title"> For Special Inquires </legend> <br>
+								
+								<label class = "contact-label"> Name* </label> <br>
+								<input type = "text" id = "contact-name" name = "contact_name" required>
+								<br> <br>
+								
+								<label class = "contact-label"> Contact No* </label> <br>
+								<input type = "phone" id = "contact-phone" name = "contact_phone" pattern = "[0-9] {10}" required>
+								<br> <br>
+								
+								<label class = "contact-label"> E-mail* </label> <br>
+								<input type = "email" id = "contact-email" name = "contact_email" pattern = "[a-zA-Z0-9._%+-*$]+@+[a-z0-9]+\.[a-z]{2,3}" required>
+								<br> <br>
+								
+								<label class = "contact-label"> Message </label> <br>
+								<textarea id = "contact-message" name = "contact_message"  cols"50" required> </textarea> <br> <br>
+								
+								<input type = "checkbox" id = "contact-policy" name= "contact_policy" required> 
+								<label class = "contact-label"> Accept privacy policy terms </label>
+								<br> <br>
+								
+								<input type = "submit" id = "contact-submit" name = "contact_submit" value = "Send" disabled>
+							</fieldset>
+						</form>
+					</td>
+					
+					<td id = "special-inquiry-data">
+						<form id = "contact-detail-form">
+							<fieldset class = "contact-detail-field">
+								<legend id = "special-inquiry-title"> GETTING IN TOUCH WITH US EASY </legend> <br>
+								
+								<div class = "contact-hrs-location">
+								<img class = "contact-icon" src = "../images/location.png" width = "30px" height = "30px" ; > &nbsp 
+								<label class = "contact-label"> Address : </label> 
+								<br> <br> &nbsp &nbsp &nbsp &nbsp
+								<span class = "text"> No.245/1 , Hotel Royal , Colombo 5 , Sri Lanka </span> 
+								<br> <br>
+								</div>
+								<hr>
+								
+								<div class = "contact-hrs-contact">
+								<img class = "contact-icon" src = "../images/phone.png" width = "25px" height = "25px" ; > &nbsp 
+								<label class = "contact-label"> Hotline : </label> 
+								<br> <br> &nbsp &nbsp &nbsp
+								<span class = "text"> 0118945607 <br> &nbsp &nbsp &nbsp 0119993866 </span> 
+								<br> <br>
+								</div>
+								<hr>
+								
+								<div class = "contact-hrs-fax">
+								<img class = "contact-icon" src = "../images/fax.png" width = "30px" height = "30px" ; > &nbsp 
+								<label class = "contact-label"> Fax : </label> 
+								<br> <br> &nbsp &nbsp &nbsp
+								<span class = "text"> +940118945607 </span> 
+								<br> <br>
+								</div>
+								<hr>
+								
+								<div class = "contact-hrs-email">
+								<img class = "contact-icon" src = "../images/email.png" width = "30px" height = "30px" ; > &nbsp 
+								<label class = "contact-label"> E-mail : </label> 
+								<br> <br> &nbsp &nbsp &nbsp
+								<span class = "text"> &nbsp <b> Inquiries : </b> inquire@hotelroyal.lk
+								<br> &nbsp &nbsp &nbsp &nbsp <b> Reservations : </b> reservation@hotelroyal.lk </span> 
+								<br> <br>
+								</div>
+							</fieldset>
+						</form>
+					</td>
+				</tr>
+			</table>
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<footer>
+		<table class = "footer-table">
+		<tr>	
+		<td class = "footer-data">
+			<div class = "para1">
+			
+				<div class = "location">
+					<img class = "icon" src = "../images/location.png" width = "20px" height = "20px" ; > &nbsp <font size = "2.5px" > Address : </font> <br> <br> &nbsp &nbsp &nbsp
+					<span class = "text"> No.245/1 , Hotel Royal , Colombo 5 , Sri Lanka </span> 
+					<br> <br>
+				</div>
+			
+				<div class = "Contact">
+					<img class = "icon" src = "../images/phone.png" width = "15px" height = "15px" ; > &nbsp <font size = "2.5px" > Hotline : </font> <br> <br> &nbsp &nbsp &nbsp
+					<span class = "text"> 0118945607 <br> &nbsp &nbsp &nbsp 0119993866 </span> 
+					<br> <br>
+				</div>
+				
+				<div class = "email">
+					<img class = "icon" src = "../images/email.png" width = "20px" height = "20px" ; > &nbsp <font size = "2.5px" > E-mail : </font> <br> <br> &nbsp &nbsp &nbsp
+					<span class = "text"> hotelroyal@gmail.com </span> 
+					<br> <br>
+				</div>
+				
+			</div>
+		</td>
+			
+			
+		<td class = "footer-data">
+				
+			<div class = "social-media">
+				<h3> CONNECT WITH US </h3>
+				<div> <a href = "#"> <img class = "icon" id = "fb" src = "../images/fb.png" width = "25px" height = "25px" ; > </a> <div> &nbsp &nbsp 
+				<div> <a href = "#"> <img class = "icon" id = "link" src = "../images/link.png" width = "25px" height = "25px" ; > </a> <div> &nbsp &nbsp 
+				<div> <a href = "#"> <img class = "icon" id = "insta" src = "../images/insta.png" width = "20px" height = "20px" ; >  </a> <div> &nbsp &nbsp 
+				<div> <a href = "#"> <img class = "icon" id = "twitter" src = "../images/twitter.png" width = "20px" height = "15px" ; > </a> <div>&nbsp &nbsp 
+				<div> <a href = "#"> <img class = "icon" id = "utube" src = "../images/utube.png" width = "30px" height = "20px" ; > </a> <div>&nbsp &nbsp 
+			</div>
+			
+		</td>
+			<td class = "footer-data">
+			<div class = "message">
+				<h3> CONTACT US </h3>
+				<div class = "content">
+			
+				<form action "#">
+					<div class = "mail">
+					<label> <font size = "2.5px" > E-mail </font> </label> <br> <br>
+					<input type = "email" id = "footer-email" name = "email" pattern = "[a-zA-Z0-9._%+-*$]+@+[a-z0-9]+\.[a-z]{2,3}" placeholder = "abc23@gmail.com" required> <br> <br>
+					</div>
+				
+					<div class = "cm"> <br> <br>
+					<label> <font size = "2.5px" > Message </font> </label> <br> 
+					<textarea rows = "2" cols = "20" required id = footer-text> </textarea>
+					</div>
+				
+					<div class = "btn"> <br>
+					<button class = "send" type = "submit"> <font size = "2.5px" > Send </font> </button>
+					</div>
+				</form>
+				</div>
+			</div>
+			</td>
+			<td class = "footer-data"> </td>
+			</tr>
+		</table>
+		</footer>
+	</body>
+</html>

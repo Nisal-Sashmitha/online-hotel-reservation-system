@@ -1,0 +1,249 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image:url("../images/reserveNow/weding.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+body {
+    background: linear-gradient(270deg, #232323, #848282);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 4s ease infinite;
+    -moz-animation: AnimationName 4s ease infinite;
+    animation: AnimationName 4s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+#reservtion-page-container{
+    position: absolute;
+    top:50px;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;   
+    width: 100%;
+    height:93%;
+    background-color:rgba(13, 13, 13, 0);
+    border-radius:20px;
+    
+
+    
+}
+
+
+.section{
+    position:absolute;
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    text-align:center;
+    transition:0.6s;
+    
+
+}
+.section-selecters{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+    height:80%;
+    align-items: center;
+   
+
+    
+}
+
+
+.selecter{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:80%;
+    width:22%;
+    border:2px solid white;
+    border-radius:10px;
+    
+    
+}
+#section-1{
+    transition: 0;
+}
+#section-2,#section-3,#section-4,#section-5,#section-6,#section-2-1,#section-2-2,#section-2-3,#section-2-4{
+    top:-100%;
+    
+    transition:0.6s;
+   
+}
+
+.selecter:hover{
+    background-color: blanchedalmond;
+    color:black;
+    transition: 0.6s;
+}
+form{
+    padding-top: 20px;
+    width:100%;
+    height:100%;
+    overflow:auto;
+}
+
+.form-body{
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height:85%;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    
+    
+}
+.form-body-element{
+    width:50%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom:20px;
+} 
+#section-3 .form-body{
+    position: absolute;
+    top:30%;
+    height:300px;
+    
+    
+}
+#section-3 h1,#section-4 h1{
+    position: absolute;
+    top:10%;
+
+}
+
+
+
+
+.date-time{
+    display:flex;
+    flex-direction: row;
+}
+
+
+form .event,form .packages{
+    display:flex;
+    position: absolute;
+    visibility:hidden;
+   
+}
+input[type=text],input[type=date],input[type=time],select,input[type=email]{
+    border:none;
+    background-color: rgba(0,0,0,0);
+    outline:none;
+    border-bottom:2px solid white ;
+    color:white;
+    text-align: center;
+
+}
+select{
+    width:50px;
+}
+input[type=text]:focus,input[type=date]:focus,input[type=time]:focus,select:focus,input[type=email]:focus{
+    border:none;
+    background-color: rgba(0,0,0,0);
+    outline:none;
+    border-bottom:2px solid gold ;
+    color:gold;
+
+}
+
+
+input[type=text],input[type=email]{
+    width:500px;
+}
+
+#submit-btn,.sec-3-next-btn,.sec-4-next-btn,.sec-6-next-btn,#alert-ok-btn{
+    background-color: rgba(0,0,0,0);
+    width:100px;
+    height:40px;
+    border:2px solid white;
+    border-radius:5px;
+    color:white;
+    font-size: 100%;
+    font-weight:bold;
+    transition: 0.4s;
+    
+}
+.sec-6-next-btn{
+    position: absolute;
+    top:60%;
+}
+#submit-btn:hover,.sec-3-next-btn:hover,.sec-4-next-btn:hover,#alert-ok-btn:hover{
+    background-color: rgba(255,255,255,1);
+    border:2px solid rgba(151, 29, 29,1);
+    color:black;  
+}
+.content-name{
+    color:white;
+    font-size:20px;  
+    
+ }
+    
+
+.form-body-element td{
+    padding:5px;
+    
+    justify-content: center;
+    
+}
+
+
+
+
+#alert{
+    background-color:rgb(8, 8, 8);
+    color:white;
+    position:absolute;
+    right: 10%;
+    left:10%;
+    top:50%;
+    height:100px;
+    text-align:center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(87, 87, 86, 0.918);
+    padding:20px;
+    border-radius: 10px;
+    
+    
+}
+#alertCover{
+    z-index:6;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+
+    background-color:rgba(253, 247, 247, 0.068);
+    transition: 0.4s;
+}

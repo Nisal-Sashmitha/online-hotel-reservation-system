@@ -1,0 +1,90 @@
+.pageContainer{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.pageContainer form{
+    width:40%;
+    padding:20px;
+    background-color: #0d0d3bdc;
+    border-radius: 10px;
+    margin:50px 0px 50px 0px;
+}
+.pageContainer form table{
+    width:100%;
+    
+}
+.pageContainer form table tr td:first-child{
+    width:20%;
+}
+
+.pageContainer form input{
+    border-radius: 10px;
+    height:30px;
+    margin:20px;
+    width:85%;
+    padding-left:10px;
+}
+.pageContainer form textarea{
+    border-radius: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    margin:20px;
+    width:85%;
+}
+.pageContainer form .contentName{
+    color:white;
+    font-size: 18;
+    margin-left: 10px;
+
+}
+.pageContainer form input[type=submit]{
+    width:150px;
+    color:white;
+    font-weight: bold;
+    background: none;
+    border:2px solid white;
+    transition: 0.4s;
+}
+.pageContainer form select{
+    border-radius: 10px;
+    height:30px;
+    margin:20px;
+    width:85%;
+    padding-left:10px;
+}
+.pageContainer form input[type=submit]:hover{
+    color:#0d0d3b;
+    background:white ;
+}
+body {
+    background: linear-gradient(270deg, #232323, #848282);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

@@ -1,0 +1,33 @@
+.reservationdetails th{
+    background-color: #0D0D3B;
+    border-radius: 5px;
+    color:white;
+
+}
+.reservationdetails{
+    margin-top:50px;
+}
+.detailRowsTable tr td button{
+    background:#0D0D3B;
+    border:2px solid white;
+    color:white;
+    border-radius: 5px;
+    padding:5px;
+    font-size: 16px;
+    font-weight:bold ;
+    transition: 0.4s;
+
+}
+.detailRowsTable tr td button:hover{
+    border:2px solid #0D0D3B;
+    color:white;
+    background: #0D0D3B;
+}
+.detailRowsTable tr td{
+    padding:20px;
+    background-color: white;
+    color:#202020;
+    border-radius: 10px;
+    font-weight: bold;
+
+}

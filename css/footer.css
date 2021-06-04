@@ -1,0 +1,194 @@
+footer{
+	text-align :center;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	font-style : italic;
+	font-weight : bold;
+	position: absolute;
+	bottom :-300px;
+	background-color: #0D0D3B;
+	width : 100%;
+	margin-left : 0px;
+	margin-right : 0px;
+}
+
+.footer-table{
+	background-color :  #0D0D3B;
+	
+}
+.footer-data{
+	width : 40%;
+}
+#footer-email , #footer-text{
+	background-color : #0D0D3B;
+	border : none;
+	border-bottom : 2px solid #D4AF37;
+	outline : none;
+	color : #D4AF37;
+}
+
+.send{
+	color : #D4AF37;
+	font-weight : bold;
+	font-size : 12px
+}
+
+.icon{
+	filter : invert(100%);
+}
+
+.social-media{
+	text-align : center;
+}
+
+#feedback-heading{
+	color : #D4AF37;
+	text-align : center;
+	font-size : 25px;
+	font-weight : bold;
+	font-family : Segoe UI Semibold;
+	margin-bottom : -120px;
+}
+
+.service{
+	width : 50%;
+	margin : 25% auto;
+	position : relative;
+}
+#service-slider{
+	width : 30%;
+	height : 5px;
+	outline : none;
+	border-radius : 3px; 
+}
+
+#feedback-title{
+	font-family : Segoe UI Semibold;
+	font-size : 15px;
+	color:#D4AF37;
+}
+
+.feedback-table{
+	border : 1px;
+}
+
+.feedback-data2{
+	width : 40%;
+	margin-bottom : -10px;
+}
+
+.contact{
+	font-family : Comic Sans MS;
+	font-size : 45px;
+	text-align : center;
+	color : #D4AF37;
+}
+#contact-page{
+		background-image : url("../images/contact3.jpg");
+		width : 100%;
+}
+
+.contact-table{
+	width : 100%;
+	color : #D4AF37;
+}
+
+#contact-inquiry-title{
+	font-family : Candara;
+	font-size : 21px;
+	padding-left : 10px;
+}
+
+#contact-inquiry-title-special{
+	font-family : Candara;
+	font-size : 21px;
+	padding-left : 25px;
+}
+
+#contact-inquiry-title-general{
+	font-family : Candara;
+	font-size : 21px;
+	padding-left : -9px;
+}
+
+#contact-icon{
+	 filter : invert(100%);	 
+}
+
+.contact-detail{
+	font-family : Century;
+	font-size : 17px;
+	padding-left : 70px;
+}
+
+.contact-detail-general{
+	font-family : Century;
+	font-size : 17px;
+	padding-left : 60px;
+}
+
+.contact-detail-special{
+	font-family : Century;
+	font-size : 17px;
+	padding-left : 60px;
+}
+
+.special-inquiry-field{
+	width : 150%;
+	border-color : #D4AF37;
+}
+
+.contact-detail-field , hr{
+	width : 100%;
+	border-color : #D4AF37;
+}
+
+#special-inquiry{
+	width : 50%;
+	padding-left : 150px;
+}
+
+#special-inquiry-title{
+	font-family : Footlight MT Light;
+	font-size : 30px;
+}
+
+.special-inquiry-field{
+	padding-left : 50px;
+}
+.contact-label , #contact-submit{
+	font-family : Footlight MT Light;
+	font-size : 17px;
+	font-weight : bold;
+}
+
+#contact-submit{
+	border-color :#D4AF37;
+	width : 70px;
+}
+
+#contact-email , #contact-message , #contact-name , #contact-phone{
+	background-color : transparent;
+	border : none;
+	width : 80%;
+	border-bottom : 2px solid #D4AF37;
+	outline : none;
+	color : #D4AF37;
+}
+
+#contact-detail{
+	padding-left : 200px;
+}
+
+#contact-detail-form{
+	font-family : Century;
+	font-size : 17px;
+	padding-left : 250px;
+}
+footer{
+	padding:10px;
+	color:#D4AF37;
+}
+.social-media h3,.footer-data,.icon{
+	color:#D4AF37;
+}
